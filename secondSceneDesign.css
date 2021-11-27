@@ -1,0 +1,29 @@
+.button:hover{
+    
+    
+    -fx-padding: 8 15 15 15;
+    -fx-color:  #BBBCB7;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 180;
+     
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%,  	#14ABE9 0%,  	#14ABE9 100%), 
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%,  	#14ABE9, #89C4F4);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.70) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    
+     -fx-font-size: 90px;
+    -fx-text-fill: #311c09;
+}
+
+.button {
+
+    -fx-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+     -fx-font-size: 70px;
+    -fx-text-fill: #000;
+    -fx-color:   #ECF0F1;
+    
+}

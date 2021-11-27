@@ -1,0 +1,57 @@
+
+
+
+#commencer{
+
+    -fx-min-height: 120px;
+
+    -fx-min-width: 450px;
+
+    -fx-background-repeat: no-repeat;
+    
+    -fx-background-radius: 150;
+    
+     -fx-background-image: url("images/lestGo.jpg");
+     
+    -fx-background-color: #5097c9;
+    
+   
+    
+    
+    
+}
+
+
+.label{
+    -fx-font-size: 31px;
+    -fx-text-fill: #311c09;
+     -fx-color:  #BBBCB7;
+}
+
+
+#commencer:hover {
+     -fx-background-image: url("images/d.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.radio-button{
+    -fx-fill-height: false;
+-fx-border-radius    : 70px  ;
+-fx-height           : 150px  ; /* Not working */
+ height               : 5px   ; /* Not working */
+-fx-background-color:  #5097c9;
+}
+.radio-button .radio:selected{
+-fx-background-color : white ;
+-fx-background-image : null  ;
+}
